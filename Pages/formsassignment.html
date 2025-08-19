@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliet's Complete HTML Form</title>
+</head>
+<body>
+    <h1>HTML Form Creation</h1>
+    <form action="mailto: julietng2020@gmail.com" method="post" font: Aria>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="text">Text: </label>
+            <input type="text" id="text" name="text" required>
+            <br>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="number">Number: </label>
+            <input type="number" id="number" name="number" required>
+            <br>
+            <br>
+            <label for="telephone">Telephone: </label>
+            <input type="tel" id="telephone" name="telephone" required>
+            <br>
+            <br>
+            <label for="website">Website: </label>
+            <input type="text" id="website" name="website">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Date & Time</legend>
+            <label for="date">Date: </label>
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
+            <label for="datetime-local">Datetime-local: </label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+            <br>
+            <br>
+            <label for="month">Month: </label>
+            <input type="month" id="month" name="month">
+            <br>
+            <br>
+            <label for="week">Week: </label>
+            <input type="week" id="week" name="week">
+            <br>
+            <br>
+            <label for="time">Time: </label>
+            <input type="time" id="time" name="time">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Choices</legend>
+            <label>Gender: </label>
+            <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="skills">Skills (select all that apply): </label>
+            <br><br>
+            <input type="checkbox" id="HTML" name="skills">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" name="skills">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+            <br>
+            <br>
+            <label for="favorite color">Favorite Color: </label>
+            <input type="color" id="favorite color" name="favorite color">
+            <br>
+            <br>
+            <label for="skill level">Skill Level (0-100): </label>
+            <input type="range" id="skill level" name="skill level">
+            <br>
+            <br>
+            <label for="select country">Select Country: </label>
+            <select id="select country" name="select country" required>
+                <option>..choose..</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Germany">Germany</option>
+                <option value="USA">USA</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Uploads & Misc</legend>
+            <label for="upload file">Upload File:</label>
+            <input type="file" id="upload file" name="upload file">
+            <br>
+            <br>
+            <label for="search">Search: </label>
+            <input type="search" id="search" name="search">
+            <br>
+            <br>
+            <label for="hidden input">Hidden Input: </label>
+            <input type="hidden" id="hidden input" name="hidden input">
+            <br>
+            <br>
+            <label for="message">Message: </label>
+            <br>
+            <textarea rows="6" cols="30" id="message" name="message" ></textarea>
+            <br>
+            <br>
+        </fieldset>
+        <button>Submit Form</button>
+
+    </form>
+</body>
+</html>
